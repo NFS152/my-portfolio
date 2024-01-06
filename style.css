@@ -2,6 +2,8 @@
 body{
 font-family: 'Bungee Spice', sans-serif;
 font-family: 'Rubik Doodle Shadow', system-ui;
+/* margin: 0;
+padding: 0; */
 }
 
 /* nav related styles */
@@ -9,6 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .text-primary{
     color: skyblue;
@@ -41,6 +44,16 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: chartreuse;
-
+    color: brown;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .Profile-photo{
+    width: 500px;
 }
